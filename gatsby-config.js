@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: 'Stoplight Elements Gatsby Starter',
-    description: 'A starter template to build beautiful developer docs using Stoplight Elements & Gatsby',
-    author: '@stoplight',
+    title: 'Qualtrics API Documentation',
+    description: 'The official Qualtrics API documentation.',
+    author: '@Qualtrics',
   },
   plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     {
