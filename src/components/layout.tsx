@@ -6,6 +6,7 @@ import Header from './header';
 
 require('@stoplight/elements/styles.min.css');
 
+
 const Layout = ({ children }) => {
   return (
     <div className="greyBackground screenHeight">
