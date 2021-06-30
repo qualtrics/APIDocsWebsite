@@ -1,8 +1,7 @@
 import { StoplightProject } from '@stoplight/elements-dev-portal';
-import { navigate, PageProps } from 'gatsby';
+import { PageProps } from 'gatsby';
 import React from 'react';
 import { useEffect } from 'react';
-import { useLayoutEffect } from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';

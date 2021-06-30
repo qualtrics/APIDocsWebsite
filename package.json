@@ -16,7 +16,8 @@
     "start": "gatsby develop -p 4200",
     "serve": "gatsby serve -p 4200",
     "build": "gatsby build",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@stoplight/elements": "7.0.0-beta.7",
