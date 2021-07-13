@@ -1,18 +1,12 @@
 import '../styles/qualtrics.css';
-
 import React from 'react';
-
 import Header from './header';
-
-require('@stoplight/elements/styles.min.css');
-
 
 const Layout = ({ children }) => {
   return (
-    <div className="greyBackground screenHeight">
+    <div className="Layout greyBackground">
       <Header />
-
-      <main>{children}</main>
+      <main className="MainContent">{children}</main>
     </div>
   );
 };

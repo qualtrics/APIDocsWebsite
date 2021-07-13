@@ -19,7 +19,7 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions, plugins }) => {
       ]
     })
   }
-
+  
   if (stage === 'build-html') {
     actions.setWebpackConfig({
       module: {
@@ -47,4 +47,3 @@ exports.onCreatePage = async ({ page, actions }) => {
     createPage(page);
   }
 };
-

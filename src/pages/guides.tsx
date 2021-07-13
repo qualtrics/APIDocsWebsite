@@ -1,28 +1,19 @@
 import { StoplightProject } from '@stoplight/elements-dev-portal';
-import { PageProps } from 'gatsby';
 import React from 'react';
-import { useEffect } from 'react';
-
 import Layout from '../components/layout';
-import SEO from '../components/seo';
 
-const GuidesPage = ({ location }: PageProps) => {
-  const nodeUri = location.pathname.split('/guides/')[1];
-  console.log(nodeUri);
-  useEffect(() => {
-    if (nodeUri == 'ZG9jOjg3NjYzMQ-overview'){
-      window.scrollTo(0, 0);
-    }
-  });
-  
+require('@stoplight/elements-dev-portal/styles.min.css');
+
+const GuidesPage = () => {
+
   return (
     <Layout>
-      <SEO title="Qualtrics Guides" />
 
       <StoplightProject
         platformUrl="https://stoplight.io"
         projectId="cHJqOjk3NDQ"
         basePath="guides"
+        collapseTableOfContents={true}
         router={typeof window === 'undefined' ? 'memory' : 'history'}
       />
     </Layout>
