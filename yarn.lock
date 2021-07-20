@@ -1006,6 +1006,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.14.6":
+  version "7.14.8"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.8.tgz#7119a56f421018852694290b9f9148097391b446"
+  integrity sha512-twj3L8Og5SaCRCErB4x4ajbvBIVV77CGeFglHpeg5WC5FF8TZzBWXtTJ4MqaD9QszLYTtr+IsaAL2rEUevb+eg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/standalone@^7.14.0":
   version "7.14.6"
   resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.14.6.tgz#9070bd3cc2bb997d42e14bdf3b0d24a11b00242b"
@@ -2000,10 +2007,10 @@
     escape-string-regexp "^2.0.0"
     lodash.deburr "^4.1.0"
 
-"@stoplight/elements-core@~7.1.2", "@stoplight/elements-core@~7.1.4":
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements-core/-/elements-core-7.1.4.tgz#268045334e04c43281174e2cb7178162f505b777"
-  integrity sha512-XHU19DzMMpO3soRV2HbDEFkw24oIfDnEiCvUmZNHwCDY3TeSBYi8riCAKe0f8ayAPZ7AJSfIFVYtZL/3KBIqsw==
+"@stoplight/elements-core@~7.1.7", "@stoplight/elements-core@~7.1.8":
+  version "7.1.8"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements-core/-/elements-core-7.1.8.tgz#902e7e7dbf1204498dd217924b6f2696c7ae75c3"
+  integrity sha512-8III85mD/aD5W4xy0M2SGqqFITpMbU2FGFbDECbqVIGKgHqvIMVlQkuEUQBjeVg6XaHswDzEA8lrQnXvbCbncA==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.31"
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
@@ -2013,7 +2020,7 @@
     "@stoplight/json-schema-sampler" "0.2.0"
     "@stoplight/json-schema-viewer" "^4.0.3"
     "@stoplight/markdown" "^3.0.0"
-    "@stoplight/markdown-viewer" "^5.0.0"
+    "@stoplight/markdown-viewer" "^5.1.0"
     "@stoplight/mosaic" "^1"
     "@stoplight/mosaic-code-editor" "^1"
     "@stoplight/mosaic-code-viewer" "^1"
@@ -2039,14 +2046,14 @@
     urijs "^1.19.6"
     util "^0.12.4"
 
-"@stoplight/elements-dev-portal@^1.0.0":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements-dev-portal/-/elements-dev-portal-1.0.4.tgz#3c1092b1da3955c40b8dcd8aa170a60e62125c7e"
-  integrity sha512-tg0gda+cy2yrCdxjRH7DXywBCpN6N40qjyABHI3+SK1HvkdP6s8s4tVwXDnNfacqfe/ZME1HH2+3D5fLLK9tQA==
+"@stoplight/elements-dev-portal@^1.0.6":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements-dev-portal/-/elements-dev-portal-1.0.8.tgz#7747af279d687c1d3a66c3d9207e5d92751e803e"
+  integrity sha512-dp8JtRszKmN7EZQZFPAlGvqtKfNiFhhEdgb0ETigURxKO54oOIE/TF2V85qpcR1teRwMuUdqGWcXWHalQI7drA==
   dependencies:
     "@fortawesome/free-solid-svg-icons" "^5.10.2"
-    "@stoplight/elements-core" "~7.1.4"
-    "@stoplight/markdown-viewer" "^5.0.0"
+    "@stoplight/elements-core" "~7.1.8"
+    "@stoplight/markdown-viewer" "^5.1.0"
     "@stoplight/mosaic" "^1"
     "@stoplight/path" "^1.3.2"
     "@stoplight/types" "^12.0.0"
@@ -2056,15 +2063,15 @@
     react-router-dom "^5.2.0"
     use-debounce "^6.0.1"
 
-"@stoplight/elements@^7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-7.0.2.tgz#f91ef8876defcefd3832a7823582bc8f6878e458"
-  integrity sha512-rFyUgJ87VNS4e4QvCnRFr2cNsmaUf8OQFBkFMxNTm0NsBy+Zdwrg1s5gv0zAo5KZisOaPzETddMHc9zCl/chhw==
+"@stoplight/elements@^7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-7.0.5.tgz#294af1dfb42c992f0c6a00c96255d3fc35582e45"
+  integrity sha512-gSNPPHfwb0r0Ni8C0sCE7GAysJXZ5JOF5aZEa2ofzDvA/uhEGnno6owFbH5zqOQDIj6ELwZUPduxN4suSfEQzQ==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^1.2.31"
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
     "@fortawesome/react-fontawesome" "^0.1.11"
-    "@stoplight/elements-core" "~7.1.2"
+    "@stoplight/elements-core" "~7.1.7"
     "@stoplight/http-spec" "^4.0.1"
     "@stoplight/json" "^3.10.0"
     "@stoplight/mosaic" "^1"
@@ -2165,7 +2172,7 @@
   dependencies:
     wolfy87-eventemitter "~5.2.8"
 
-"@stoplight/markdown-viewer@^5.0.0":
+"@stoplight/markdown-viewer@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@stoplight/markdown-viewer/-/markdown-viewer-5.1.0.tgz#2a21fc0032a63218a325923a0beca79e78c94c33"
   integrity sha512-QcF/Ju54RZERH+ewGqW8dHYcuvL9YoaXNg8tvze5y4Z7L2bIpaNUdMUDsEDdFWC/h/MePumo3OQDpo4hV2VHFQ==
@@ -6384,6 +6391,13 @@ gatsby-plugin-amplitude-analytics@^3.2.0:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
+gatsby-plugin-anchor-links@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-anchor-links/-/gatsby-plugin-anchor-links-1.2.1.tgz#c82ff8fdeda4b3f2ca036cec469f7c42da3b2897"
+  integrity sha512-BIhhljCxIUVluMltlCq5sKvVN9PfwqoUNaTjyPZUhtEu5JhEiK89HPNustSkjSLhnQmcYveS36TpjWK/rUnvhg==
+  dependencies:
+    scroll-to-element "^2.0.3"
+
 gatsby-plugin-page-creator@^3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-3.9.0.tgz#c1a01b260a328780e96bda199c956797da304497"
@@ -6426,6 +6440,13 @@ gatsby-plugin-utils@^1.9.0:
   integrity sha512-jBx4GRGfsVw57wrqLZ5AkgMHFxcXfFCdwFOC11bDvM9Ls5LokNu2UYNXU0bCbl8agLPYZwEHYwZgaCgk3iQYGQ==
   dependencies:
     joi "^17.2.1"
+
+gatsby-react-router-scroll@^4.10.0:
+  version "4.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-4.10.0.tgz#4df44bf4dcae2b2af75b5487fded9c385e5b54f1"
+  integrity sha512-yeGpfd+ScDZwkdqgJdyMES8sj2SJ0At5W9j+p0u/03hkkMG4JocttwvzJRIQEHbl9Dz8bBDtlgba3zwTU2cWww==
+  dependencies:
+    "@babel/runtime" "^7.14.6"
 
 gatsby-react-router-scroll@^4.9.0:
   version "4.9.0"
@@ -10945,6 +10966,13 @@ raf-schd@^4.0.2:
   resolved "https://registry.yarnpkg.com/raf-schd/-/raf-schd-4.0.3.tgz#5d6c34ef46f8b2a0e880a8fcdb743efc5bfdbc1a"
   integrity sha512-tQkJl2GRWh83ui2DiPTJz9wEiMN20syf+5oKfB03yYP7ioZcJwsIK8FjrtLwH1m7C7e+Tt2yYBlrOpdT+dyeIQ==
 
+raf@^3.4.0:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/raf/-/raf-3.4.1.tgz#0742e99a4a6552f445d73e3ee0328af0ff1ede39"
+  integrity sha512-Sq4CW4QhwOHE8ucn6J34MqtZCeWFP2aQSmrlroYgqAV1PjStIhJXxYuTgUIfkEk7zTLjmIjLmU5q+fbD1NnOJA==
+  dependencies:
+    performance-now "^2.1.0"
+
 randombytes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -11721,6 +11749,13 @@ schema-utils@^3.0.0:
     "@types/json-schema" "^7.0.6"
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
+
+scroll-to-element@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/scroll-to-element/-/scroll-to-element-2.0.3.tgz#99b404fc6a09fe73f3c062cd5b8a14efb6404e4d"
+  integrity sha512-5herPcm9jMfQgRwu94lH5mei+2YhipR4RQ2nAvnBxJb2tG+P7O0ctOKAaAZBXbBejnn+MImh3wrAUA5EcLnjEQ==
+  dependencies:
+    raf "^3.4.0"
 
 select-hose@^2.0.0:
   version "2.0.0"

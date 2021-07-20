@@ -6,6 +6,7 @@ module.exports = {
     pathPrefix: "/APIDocsWebsite",
   },
   plugins: [
+    `gatsby-plugin-anchor-links`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
