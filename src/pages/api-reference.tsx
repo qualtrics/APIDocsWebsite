@@ -1,11 +1,10 @@
-import { StoplightProject } from '@stoplight/elements-dev-portal';
-import React from 'react';
-import Layout from '../components/layout';
+import { StoplightProject } from "@stoplight/elements-dev-portal";
+import React from "react";
+import Layout from "../components/layout";
 
-require('@stoplight/elements-dev-portal/styles.min.css');
+require("@stoplight/elements-dev-portal/styles.min.css");
 
-const APIReferencePage = () => {  
-
+const APIReferencePage = () => {
   return (
     <Layout>
       <StoplightProject
@@ -13,8 +12,7 @@ const APIReferencePage = () => {
         projectId="cHJqOjk3NDQ"
         basePath="api-reference"
         collapseTableOfContents={true}
-        router={typeof window === 'undefined' ? 'memory' : 'history'
-      }
+        router={typeof window === "undefined" ? "memory" : "history"}
       />
     </Layout>
   );

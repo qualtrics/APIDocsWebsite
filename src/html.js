@@ -1,5 +1,5 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from "react";
+import PropTypes from "prop-types";
 
 export default function HTML(props) {
   return (
@@ -20,7 +20,8 @@ export default function HTML(props) {
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
-        <script type='text/javascript'
+        <script
+          type="text/javascript"
           dangerouslySetInnerHTML={{
             __html: `
         (function(){var g=function(e,h,f,g){
@@ -33,15 +34,16 @@ export default function HTML(props) {
         `,
           }}
         />
-        <div id='ZN_3lnEEkgsc58r9fU'
-        dangerouslySetInnerHTML={{
+        <div
+          id="ZN_3lnEEkgsc58r9fU"
+          dangerouslySetInnerHTML={{
             __html: `<!--DO NOT REMOVE-CONTENTS PLACED HERE-->`,
           }}
         />
         {props.postBodyComponents}
       </body>
     </html>
-  )
+  );
 }
 
 HTML.propTypes = {
@@ -51,4 +53,4 @@ HTML.propTypes = {
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
   postBodyComponents: PropTypes.array,
-}
+};

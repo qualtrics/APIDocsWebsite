@@ -1,6 +1,6 @@
-import '../styles/qualtrics.css';
-import React from 'react';
-import Header from './header';
+import "../styles/qualtrics.css";
+import React from "react";
+import Header from "./header";
 
 const Layout = ({ children }) => {
   return (

@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: 'Qualtrics API Documentation',
-    description: 'The official Qualtrics API documentation.',
-    author: '@Qualtrics',
+    title: "Qualtrics API Documentation",
+    description: "The official Qualtrics API documentation.",
+    author: "@Qualtrics",
     pathPrefix: "/APIDocsWebsite",
   },
   plugins: [
     `gatsby-plugin-anchor-links`,
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: 'https://api-test.qualtrics.com',
-        policy: [{ userAgent: '*', disallow: ['/'] }]
-      }
+        host: "https://api-test.qualtrics.com",
+        policy: [{ userAgent: "*", disallow: ["/"] }],
+      },
     },
     {
       resolve: `gatsby-plugin-amplitude-analytics`,
@@ -25,16 +25,16 @@ module.exports = {
         head: false,
         // Override the default event types (optional)
         eventTypes: {
-          outboundLinkClick: 'ApiDocs.OUTBOUND_LINK_CLICK',
-          pageView: 'ApiDocs.Navigate',
+          outboundLinkClick: "ApiDocs.OUTBOUND_LINK_CLICK",
+          pageView: "ApiDocs.Navigate",
         },
         // Amplitude JS SDK configuration options (optional)
         amplitudeConfig: {
           saveEvents: true,
           includeUtm: true,
-          includeReferrer: true
-        }
-      }
-    }
-  ]
+          includeReferrer: true,
+        },
+      },
+    },
+  ],
 };

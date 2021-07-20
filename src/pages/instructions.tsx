@@ -1,8 +1,8 @@
-import { StoplightProject } from '@stoplight/elements-dev-portal';
-import React from 'react';
-import Layout from '../components/layout';
+import { StoplightProject } from "@stoplight/elements-dev-portal";
+import React from "react";
+import Layout from "../components/layout";
 
-require('@stoplight/elements-dev-portal/styles.min.css');
+require("@stoplight/elements-dev-portal/styles.min.css");
 
 const InstructionsPage = () => {
   return (
@@ -12,7 +12,7 @@ const InstructionsPage = () => {
         projectId="cHJqOjk3NDQ"
         basePath="instructions"
         collapseTableOfContents={true}
-        router={typeof window === 'undefined' ? 'memory' : 'history'}
+        router={typeof window === "undefined" ? "memory" : "history"}
       />
     </Layout>
   );
