@@ -6,7 +6,7 @@ import {getRedirect} from "../services/redirectTool"
 
 require("@stoplight/elements-dev-portal/styles.min.css");
 
-const GuidesPage = () => {
+const GuidesPage = ({location}) => {
   let redirect = "";
   const nodeUri = location.pathname.split('/guides')[1];
   const anchor = location.hash;

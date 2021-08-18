@@ -6,7 +6,7 @@ import {getRedirect} from "../services/redirectTool"
 
 require("@stoplight/elements-dev-portal/styles.min.css");
 
-const SDKsPage = () => {
+const SDKsPage = ({location}) => {
   let redirect = "";
   const nodeUri = location.pathname.split('/sdks')[1];
   const anchor = location.hash;
@@ -14,7 +14,7 @@ const SDKsPage = () => {
     let path = getRedirect("/sdks", nodeUri, anchor);
     redirect = path;
   }
-  
+
   return (
     <div>
     { redirect !== "" ? (

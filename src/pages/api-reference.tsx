@@ -6,7 +6,7 @@ import {getRedirect} from "../services/redirectTool"
 
 require("@stoplight/elements-dev-portal/styles.min.css");
 
-const APIReferencePage = () => {
+const APIReferencePage = ({location}) => {
   let redirect = "";
   const nodeUri = location.pathname.split('/api-reference')[1];
   const anchor = location.hash;
@@ -14,7 +14,7 @@ const APIReferencePage = () => {
     let path = getRedirect("/api-reference", nodeUri, anchor);
     redirect = path;
   }
-  
+
   return (
     <div>
     { redirect !== "" ? (
