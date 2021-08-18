@@ -1,12 +1,29 @@
 import { StoplightProject } from "@stoplight/elements-dev-portal";
 import React from "react";
+import {Helmet} from "react-helmet"
 import Layout from "../components/layout";
+import {getRedirect} from "../services/redirectTool"
 
 require("@stoplight/elements-dev-portal/styles.min.css");
 
 const InstructionsPage = () => {
+  let redirect = "";
+  const nodeUri = location.pathname.split('/instructions')[1];
+  const anchor = location.hash;
+  if (nodeUri.split("/").length > 2){
+    let path = getRedirect("/instructions", nodeUri, anchor);
+    redirect = path;
+  }
+  
   return (
-    <Layout>
+    <div>
+    { redirect !== "" ? (
+      <Helmet>
+        <meta httpEquiv="refresh" 
+              content={`0;url=${redirect}`}/>
+      </Helmet>
+      ) : (
+        <Layout>   
       <StoplightProject
         platformUrl="https://stoplight.io"
         projectId="cHJqOjk3NDQ"
@@ -14,7 +31,10 @@ const InstructionsPage = () => {
         collapseTableOfContents={true}
         router={typeof window === "undefined" ? "memory" : "history"}
       />
-    </Layout>
+      </Layout>
+      )
+    }
+    </div>
   );
 };
 
