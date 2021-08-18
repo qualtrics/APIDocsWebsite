@@ -1,1 +1,6 @@
-{"componentChunkName":"component---src-pages-sdks-tsx","path":"/sdks/","matchPath":"/sdks/*","result":{"pageContext":{"matchPath":"/sdks/*"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-pages-sdks-tsx",
+    "path": "/sdks/",
+    "result": {"pageContext":{"matchPath":"/sdks/*"}},
+    "staticQueryHashes": [],
+    "matchPath": "/sdks/*"}

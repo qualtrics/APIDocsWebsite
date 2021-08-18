@@ -1,2 +1,0 @@
-(self.webpackChunk_qualtrics_qualtrics_api_documentation=self.webpackChunk_qualtrics_qualtrics_api_documentation||[]).push([[263],{65802:function(t,e,a){"use strict";a.r(e);var n=a(77664),r=a(67294),l=a(38300);a(20416);e.default=function(){return r.createElement(l.Z,null,r.createElement(n.Im,{platformUrl:"https://stoplight.io",projectId:"cHJqOjk3NDQ",basePath:"sdks",collapseTableOfContents:!0,router:"undefined"==typeof window?"memory":"history"}))}}}]);
-//# sourceMappingURL=component---src-pages-sdks-tsx-6166f0f76a98b5cb14bc.js.map

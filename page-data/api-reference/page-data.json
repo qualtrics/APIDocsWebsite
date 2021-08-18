@@ -1,1 +1,6 @@
-{"componentChunkName":"component---src-pages-api-reference-tsx","path":"/api-reference/","matchPath":"/api-reference/*","result":{"pageContext":{"matchPath":"/api-reference/*"}},"staticQueryHashes":[]}
+{
+    "componentChunkName": "component---src-pages-api-reference-tsx",
+    "path": "/api-reference/",
+    "result": {"pageContext":{"matchPath":"/api-reference/*"}},
+    "staticQueryHashes": [],
+    "matchPath": "/api-reference/*"}
