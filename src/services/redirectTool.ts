@@ -330,7 +330,6 @@ export function getRedirect(page: string, path: string, anchor: string){
         ['/reference/whatsApp.json/paths/~1distributions~1whatsapp~1{whatsAppDistributionId}/delete','/b3A6NjExNTA-delete-whats-app-distribution' ]
     ]);
 
-    debugger;
     let decodedPath = decodeURI(path);
     let redirectPath = "";
     if (redirectMap.has(decodedPath)){
