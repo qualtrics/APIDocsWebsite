@@ -14,8 +14,8 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
-    "@stoplight/elements": "^7.0.5",
-    "@stoplight/elements-dev-portal": "^1.0.8",
+    "@stoplight/elements": "^7.1.0",
+    "@stoplight/elements-dev-portal": "^1.1.0",
     "canvas": "^2.8.0",
     "gatsby": "^3.7.1",
     "gatsby-plugin-amplitude-analytics": "^3.2.0",

@@ -338,7 +338,7 @@ export function getRedirect(page: string, path: string, anchor: string){
         if (anchor !== "") {redirectPath += anchor;}
     }
     else{
-        redirectPath = "/404"
+        redirectPath = "/"
     }
     
     return redirectPath

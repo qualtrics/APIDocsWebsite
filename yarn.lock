@@ -1857,7 +1857,7 @@
     urijs "^1.19.6"
     util "^0.12.4"
 
-"@stoplight/elements-dev-portal@^1.0.8":
+"@stoplight/elements-dev-portal@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@stoplight/elements-dev-portal/-/elements-dev-portal-1.1.0.tgz#fe6a9d98f2264c1c7af72f6bfd87eccd7573dd46"
   integrity sha512-NACU6wijN/lT9OTeFNyXI6dVihvoyMslnjt/Arm+rOOw/nz51+vxY2V68pw+tKfKv3O8nJSWNbFnYnHJCNSFWQ==
@@ -1874,7 +1874,7 @@
     react-router-dom "^5.2.0"
     use-debounce "^6.0.1"
 
-"@stoplight/elements@^7.0.5":
+"@stoplight/elements@^7.1.0":
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@stoplight/elements/-/elements-7.1.0.tgz#dbb4d8cf325dda2b818e420cb16233a1e8f029be"
   integrity sha512-JsQbS1HN4WDhyMclX++1SVWJI2POV4DYPBOo/w70jycxKUwQI4qZWusmcfthg6rHqKsmFC/n0djjqkp28JYm8Q==
