@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /
-Sitemap: https://api-test.qualtrics.com/sitemap/sitemap-index.xml
-Host: https://api-test.qualtrics.com
