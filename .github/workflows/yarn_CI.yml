@@ -22,7 +22,7 @@ jobs:
         path: ./static/CNAME
 
     - name: CNAME Contents
-      run: echo "${ steps.package.outputs.content }"
+      run: echo "${{ steps.package.outputs.content }}"
 
     - name: Build Setup
       uses: actions/setup-node@v2
