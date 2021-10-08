@@ -24,12 +24,12 @@ jobs:
     - name: CNAME Contents
       run: echo "${{ steps.package.outputs.content }}"
 
-      - name: CNAME Check
-        if: ${{ steps.package.outputs.content }} != "api.qualtrics.com"
-        uses: actions/github-script@v3
-        with:
-          script: |
-              core.setFailed('CNAME contents incorrect. CNAME in production must be set to api.qualtrics.com')
+    - name: CNAME Check
+      if: ${{ steps.package.outputs.content }} != "api.qualtrics.com"
+      uses: actions/github-script@v3
+      with:
+        script: |
+            core.setFailed('CNAME contents incorrect. CNAME in production must be set to api.qualtrics.com')
 
     - name: Build Setup
       uses: actions/setup-node@v2
