@@ -13,13 +13,13 @@ jobs:
 
     steps:
     - name: Check CNAME Contents
-      id: read_file
-      uses: andstor/file-reader-action@v1
+      id: package
+      uses: juliangruber/read-file-action@v1
       with:
-        path: "static\CNAME"
+        path: ./static/CNAME
 
     - name: CNAME Contents
-      run: echo "${ steps.read_file.outputs.contents }"
+      run: echo "${ steps.package.outputs.content }"
 
     - name: Checkout Code
       uses: actions/checkout@v2
