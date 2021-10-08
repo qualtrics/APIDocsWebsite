@@ -12,6 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+      
     - name: Check CNAME Contents
       id: package
       uses: juliangruber/read-file-action@v1
@@ -20,9 +23,6 @@ jobs:
 
     - name: CNAME Contents
       run: echo "${ steps.package.outputs.content }"
-
-    - name: Checkout Code
-      uses: actions/checkout@v2
 
     - name: Build Setup
       uses: actions/setup-node@v2
