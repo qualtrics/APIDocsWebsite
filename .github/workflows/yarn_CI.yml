@@ -25,7 +25,7 @@ jobs:
       run: echo "${{ steps.package.outputs.content }}"
 
     - name: CNAME Check
-      if: ${{ steps.package.outputs.content }} != "api.qualtrics.com"
+      if: ${{ steps.package.outputs.content != 'api.qualtrics.com'}} 
       uses: actions/github-script@v3
       with:
         script: |
