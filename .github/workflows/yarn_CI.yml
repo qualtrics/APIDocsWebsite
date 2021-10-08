@@ -16,7 +16,7 @@ jobs:
       id: read_file
       uses: andstor/file-reader-action@v1
       with:
-        path: "./static/CNAME"
+        path: "static/CNAME"
 
     - name: CNAME Contents
       run: echo "${ steps.read_file.outputs.contents }"
