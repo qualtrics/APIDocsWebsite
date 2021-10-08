@@ -26,6 +26,8 @@ jobs:
 
     - name: Build Setup
       uses: actions/setup-node@v2
+
+    - name: Get Dependencies
       with:
         node-version: '16'
         cache: 'yarn'
