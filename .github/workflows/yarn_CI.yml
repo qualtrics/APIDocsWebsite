@@ -8,14 +8,28 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
     
+    runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
+    - name: Check CNAME Contents
+      id: read_file
+      uses: andstor/file-reader-action@v1
+      with:
+        path: "./static/CNAME"
+
+    - name: CNAME Contents
+      run: echo "${ steps.read_file.outputs.contents }"
+
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Setup node-version
+      uses: actions/setup-node@v2
+
+    - name: Build 
       with:
         node-version: '16'
         cache: 'yarn'
-    - run: yarn
-    - run: yarn build
+      run: yarn
+      run: yarn build
