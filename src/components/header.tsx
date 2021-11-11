@@ -3,6 +3,8 @@ import QualtricsLogo from "../images/QualtricsXM_WHITE.png";
 import { Link } from "gatsby";
 import React from "react";
 
+import { Search } from './Search';
+
 const Header = () => {
   return (
     <header className="blueBackground">
@@ -41,7 +43,7 @@ const Header = () => {
           >
             <span className="textWhite">SDKs</span>
           </Link>
-
+          <Search projectIds={['cHJqOjk3NDQ']} />
           {/* Search goes here. */}
         </div>
       </div>

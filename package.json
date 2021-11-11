@@ -11,11 +11,11 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages-staging"
   },
   "dependencies": {
-    "@stoplight/elements": "^7.1.0",
-    "@stoplight/elements-dev-portal": "^1.1.0",
+    "@stoplight/elements": "^7.3.7",
+    "@stoplight/elements-dev-portal": "^1.4.4",
     "canvas": "^2.8.0",
     "gatsby": "^3.7.1",
     "gatsby-plugin-amplitude-analytics": "^3.2.0",
