@@ -25,7 +25,7 @@ export const Search = ({ projectIds }: SearchProps) => {
   const handleClick = (data: NodeSearchResult) => {
     var base_url = window.location.origin;
 
-    window.location.href = base_url + `${data.uri}`;
+    window.location.href = `/${data.slug}`;
   };
 
   return (
