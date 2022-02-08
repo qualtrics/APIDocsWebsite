@@ -2,9 +2,7 @@ import "../styles/qualtrics.css";
 import QualtricsLogo from "../images/QualtricsXM_WHITE.png";
 import { Link } from "gatsby";
 import React from "react";
-
 import { Search } from './Search';
-
 
 
 const Header = () => {
@@ -19,37 +17,33 @@ const Header = () => {
             </div>
           </Link>
 
-          <Link
-            to="/ZG9jOjg3NjY0Mg-overview"
-            activeStyle={{ color: "red" }}
+          <a
+            href="/ZG9jOjg3NjY0Mg-overview"
             className="reset textLarge headerMarginRight2"
           >
             <span className="textWhite">Instructions</span>
-          </Link>
+          </a>
 
-          <Link
-            to="/ZG9jOjg3NjYzMQ-overview"
-            activeStyle={{ color: "red" }}
+          <a
+            href="/ZG9jOjg3NjYzMQ-overview"
             className="reset textLarge headerMarginRight2"
           >
             <span className="textWhite">Guides</span>
-          </Link>
+          </a>
 
-          <Link
-            to="/ZG9jOjg0MDczOA-api-reference"
-            activeStyle={{ color: "red" }}
+          <a
+            href="/ZG9jOjg0MDczOA-api-reference"
             className="reset textLarge headerMarginRight2"
           >
             <span className="textWhite">API Reference</span>
-          </Link>
+          </a>
 
-          <Link
-            to="/ZG9jOjg3NjY0NQ-qualtrics-software-development-kits"
-            activeStyle={{ color: "red" }}
+          <a
+            href="/ZG9jOjg3NjY0NQ-qualtrics-software-development-kits"
             className="reset textLarge headerMarginRight2"
           >
             <span className="textWhite">SDKs</span>
-          </Link>
+          </a>
           
           <Search projectIds={['cHJqOjk3NDQ']} />
           {/* Search goes here. */}
