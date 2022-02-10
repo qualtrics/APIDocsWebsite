@@ -2,9 +2,9 @@ name: yarn CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ ${GITHUB_REF##*/} ]
   pull_request:
-    branches: [ master ]
+    branches: [ ${GITHUB_REF##*/} ]
 
 jobs:
   build:
