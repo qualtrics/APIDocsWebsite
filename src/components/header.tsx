@@ -2,7 +2,7 @@ import "../styles/qualtrics.css";
 import QualtricsLogo from "../images/QualtricsXM_WHITE.png";
 import { Link } from "gatsby";
 import React from "react";
-import { Search } from './Search';
+import { Search } from '../components/Search';
 
 
 const Header = () => {
