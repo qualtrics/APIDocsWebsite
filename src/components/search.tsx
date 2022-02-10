@@ -6,7 +6,7 @@ export type SearchProps = {
   projectIds: string[];
 };
 
-export const Search = ({ projectIds }: SearchProps) => {
+const Search = ({ projectIds }: SearchProps) => {
   const [search, setSearch] = React.useState('');
   const [open, setOpen] = React.useState(false);
   const { data } = useGetNodes({
@@ -42,3 +42,5 @@ export const Search = ({ projectIds }: SearchProps) => {
     </>
   );
 };
+
+export default Search;
