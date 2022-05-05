@@ -14,4 +14,4 @@ The Qualtrics Site Feedback is supported by adding the [html.js](./src/html.js) 
 
 ## Important
 
-Never modify the[CNAME](./static/CNAME) file. It must always have the content of `api.qualtrics.com` to ensure the subdomain is not stolen by bots that crawl github for these kinds of things. If you accidentally publish with different content, you will need to involve netsec and reclaim the domain through Github support.
+Never modify the [CNAME](./static/CNAME) file. It must always have the content of `api.qualtrics.com` to ensure the subdomain is not stolen by bots that crawl github for these kinds of things. If you accidentally publish with different content, you will need to involve netsec and reclaim the domain through Github support.

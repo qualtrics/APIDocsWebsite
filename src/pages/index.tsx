@@ -38,7 +38,7 @@ const IndexPage = () => {
     const anchor = location.hash;
     if (nodeUri.split("/").length > 2) {
       // first param used to be V2 page path - no longer needed
-      let path = getRedirect("", nodeUri, anchor);
+      let path = getRedirect(nodeUri, anchor);
       redirect = path;
     }
   }

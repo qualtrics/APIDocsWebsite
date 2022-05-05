@@ -1,4 +1,4 @@
-export function getRedirect(page: string, path: string, anchor: string) {
+export function getRedirect(path: string, anchor: string) {
   let redirectMap = new Map([
     ["/docs/api-reference.md", "/ZG9jOjg0MDczOA-api-reference"],
     ["/docs/overview.md", "/ZG9jOjcxMjYx-overview"],
