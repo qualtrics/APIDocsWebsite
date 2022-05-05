@@ -2,11 +2,9 @@ import "../styles/qualtrics.css";
 import QualtricsLogo from "../images/QualtricsXM_WHITE.png";
 import { Link } from "gatsby";
 import React from "react";
-import Search from './Search';
-
+import Search from "./Search";
 
 const Header = () => {
-
   return (
     <header className="blueBackground">
       <div className="flex baseline textCenter marginAuto headerWidth">
@@ -44,8 +42,8 @@ const Header = () => {
           >
             <span className="textWhite">SDKs</span>
           </a>
-          
-          <Search projectIds={['cHJqOjk3NDQ']} />
+
+          <Search projectIds={["cHJqOjk3NDQ"]} />
           {/* Search goes here. */}
         </div>
       </div>

@@ -1,13 +1,17 @@
-import type { NodeSearchResult } from '@stoplight/elements-dev-portal';
-import { Search as ElementsSearch, useGetNodes, useGetWorkspace } from '@stoplight/elements-dev-portal';
-import * as React from 'react';
+import type { NodeSearchResult } from "@stoplight/elements-dev-portal";
+import {
+  Search as ElementsSearch,
+  useGetNodes,
+  useGetWorkspace,
+} from "@stoplight/elements-dev-portal";
+import * as React from "react";
 
 export type SearchProps = {
   projectIds: string[];
 };
 
 const Search = ({ projectIds }: SearchProps) => {
-  const [search, setSearch] = React.useState('');
+  const [search, setSearch] = React.useState("");
   const [open, setOpen] = React.useState(false);
   const { data } = useGetNodes({
     search,
@@ -19,7 +23,7 @@ const Search = ({ projectIds }: SearchProps) => {
 
   const handleClose = () => {
     setOpen(false);
-    setSearch('');
+    setSearch("");
   };
 
   const handleClick = (data: NodeSearchResult) => {
@@ -30,7 +34,11 @@ const Search = ({ projectIds }: SearchProps) => {
 
   return (
     <>
-      <input placeholder="Search..." style={{ color: 'black' }} onFocus={() => setOpen(true)} />
+      <input
+        placeholder="Search..."
+        style={{ color: "black" }}
+        onFocus={() => setOpen(true)}
+      />
       <ElementsSearch
         search={search}
         onSearch={setSearch}
