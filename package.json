@@ -14,35 +14,21 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
   },
   "dependencies": {
-    "@stoplight/elements": "^7.3.7",
-    "@stoplight/elements-dev-portal": "^1.4.4",
-    "canvas": "^2.8.0",
-    "gatsby": "^3.7.1",
+    "@stoplight/elements": "^7.5.18",
+    "@stoplight/elements-dev-portal": "^1.7.2",
+    "@stoplight/mosaic-code-viewer": "^1.19.1",
     "gatsby-plugin-amplitude-analytics": "^3.2.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
-    "gatsby-plugin-manifest": "^3.10.0",
-    "gatsby-plugin-react-helmet": "^5.7.0",
-    "gatsby-plugin-robots-txt": "^1.6.8",
-    "gatsby-plugin-sharp": "^3.10.2",
-    "gatsby-react-router-scroll": "^4.10.0",
-    "jsdom": "^16.6.0",
-    "postcss": "^8.3.5",
-    "process": "^0.11.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "gatsby-plugin-react-helmet": "^5.13.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
-    "url": "^0.11.0",
-    "util": "^0.12.4"
+    "canvas": "^2.9.1",
+    "gatsby": "^4.13.1",
+    "url": "0.11.0"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
-    "prettier": "2.2.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stoplightio/elements-starter-gatsby.git"
-  },
-  "bugs": {
-    "url": "https://github.com/stoplightio/elements-starter-gatsby/issues"
+    "prettier": "2.6.2"
   }
 }

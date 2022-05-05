@@ -4,7 +4,7 @@ This is the [Stoplight](https://stoplight.io/) enabled API Documentation website
 
 Stoplight has documentation on how to implement their Elements and Dev-Portal [available here](https://meta.stoplight.io/).
 
-It is designed as a single page application centered on [an Index Page](./src/pages/index.tsx). In that page, you'll commented logic in the top of the page that deals with V1 and V2 links, and how to handle it if the page receives one of those links.
+The Gatsby application is designed as a single page application centered on [an Index Page](./src/pages/index.tsx). In that page, you'll commented logic in the top of the page that deals with V1 and V2 links, and how to handle it if the page receives one of those links.
 
 The [Redirect Tool](./src/services/redirectTool.ts) serves as a map for the supported v1 links that will successfully redirect. We maintained this and V2 link forwarding because we didn't know which links were "in the wild" and wanted customers to have a seamless experience.
 
