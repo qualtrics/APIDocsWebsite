@@ -2,4 +2,5 @@
     "componentChunkName": "component---src-pages-index-tsx",
     "path": "/",
     "result": {"pageContext":{}},
-    "staticQueryHashes": []}
+    "staticQueryHashes": [],
+    "matchPath": "/*"}
