@@ -17,17 +17,19 @@
     "@stoplight/elements": "^7.5.18",
     "@stoplight/elements-dev-portal": "^1.7.2",
     "@stoplight/mosaic-code-viewer": "^1.19.1",
+    "canvas": "^2.9.1",
+    "gatsby": "^4.13.1",
     "gatsby-plugin-amplitude-analytics": "^3.2.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-react-helmet": "^5.13.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
-    "canvas": "^2.9.1",
-    "gatsby": "^4.13.1",
     "url": "0.11.0"
   },
   "devDependencies": {
+    "@types/react": "18.0.8",
+    "@types/react-helmet": "^6.1.5",
     "gh-pages": "^3.2.3",
     "prettier": "2.6.2"
   }
