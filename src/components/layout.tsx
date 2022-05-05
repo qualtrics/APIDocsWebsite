@@ -2,7 +2,7 @@ import "../styles/qualtrics.css";
 import React from "react";
 import Header from "./header";
 import { QueryClient, QueryClientProvider } from "react-query";
-require('@stoplight/elements/styles.min.css');
+require("@stoplight/elements/styles.min.css");
 
 const queryClient = new QueryClient();
 

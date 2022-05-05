@@ -1,17 +1,17 @@
-# Stoplight Elements - Gatsby Example
+# Qualtrics API Docs Website
 
-_Stoplight Elements_ provides components that can be used in any React application.
-This example project demonstrates how to use _Elements_ with Gatsby.
+This is the [Stoplight](https://stoplight.io/) enabled API Documentation website for Qualtrics.
 
-## Table Of Contents
+Stoplight has documentation on how to implement their Elements and Dev-Portal [available here](https://meta.stoplight.io/).
 
-- [Try the example locally](#try-the-example)
-- [Set up Elements in your own Gatsby app](#elements-in-your-gatsby-app)
+It is designed as a single page application centered on [an Index Page](./src/pages/index.tsx). In that page, you'll commented logic in the top of the page that deals with V1 and V2 links, and how to handle it if the page receives one of those links.
 
-## Try the example
+The [Redirect Tool](./src/services/redirectTool.ts) serves as a map for the supported v1 links that will successfully redirect. We maintained this and V2 link forwarding because we didn't know which links were "in the wild" and wanted customers to have a seamless experience.
 
-For instructions on how to run this example, please refer to the [root README file](../../README.md)
+Amplitude Analytics setup is in the [Gatsby-Config](./gatsby-config.js) file, including the key used.
 
-## Elements in your own Gatsby app
+The Qualtrics Site Feedback is supported by adding the [html.js](./src/html.js) file, and modifying it to include the necessary `div` element and the javascript that supports the functionality.
 
-Check out our [Public Documentation](https://meta.stoplight.io/docs/elements) and **start using Stoplight Elements today!**
+## Important
+
+Never modify the[CNAME](./static/CNAME) file. It must always have the content of `api.qualtrics.com` to ensure the subdomain is not stolen by bots that crawl github for these kinds of things. If you accidentally publish with different content, you will need to involve netsec and reclaim the domain through Github support.
