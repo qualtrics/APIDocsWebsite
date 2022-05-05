@@ -1263,7 +1263,7 @@ export function getRedirect(path: string, anchor: string) {
   let redirectPath = "";
   // check the map above for the V1 link
   if (redirectMap.has(decodedPath)) {
-    redirectPath = page + redirectMap.get(decodedPath);
+    redirectPath = redirectMap.get(decodedPath);
     // save the # anchor if present
     if (anchor !== "") {
       redirectPath += anchor;
