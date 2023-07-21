@@ -41,6 +41,12 @@ const IndexPage = () => {
       let path = getRedirect(nodeUri, anchor);
       redirect = path;
     }
+  } else if (currentPath.split("/").length == 2) {
+    let path = getRedirect(currentPath, "");
+    if (path !== "/")
+    {
+      redirect = path;
+    }
   }
   return (
     <div>
