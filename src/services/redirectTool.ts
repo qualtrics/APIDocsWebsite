@@ -136,11 +136,19 @@ export function getRedirect(path: string, anchor: string) {
           "/1aea264443797-base-url-and-datacenter-i-ds",
       ],
       [
+          "/base-url-and-datacenter-ids.md",
+          "/1aea264443797-base-url-and-datacenter-i-ds",
+      ],
+      [
           "/docs/Instructions/Reference/finding-your-qualtrics-ids.md",
           "/4637b3c0f7c85-finding-your-qualtrics-i-ds",
       ],
       [
           "/docs/Instructions/finding-your-qualtrics-ids.md",
+          "/4637b3c0f7c85-finding-your-qualtrics-i-ds",
+      ],
+      [
+          "/finding-your-qualtrics-ids.md",
           "/4637b3c0f7c85-finding-your-qualtrics-i-ds",
       ],
       [
@@ -163,9 +171,13 @@ export function getRedirect(path: string, anchor: string) {
           "/docs/Instructions/language-codes.md",
           "/76d1dbf1c7f54-language-codes",
       ],
+      [
+          "/language-codes.md",
+          "/76d1dbf1c7f54-language-codes",
+      ],
       ["/docs/Instructions/Reference/parameters.md", "/74fdff2f219cb-parameters"],
       ["/docs/Instructions/parameters.md", "/74fdff2f219cb-parameters"],
-
+      ["/parameters.md", "/74fdff2f219cb-parameters"],
       ["/docs/Instructions/Reference/responses.md", "/3ab4b937676d5-responses"],
       ["/docs/Instructions/responses.md", "/3ab4b937676d5-responses"],
       ["/docs/Instructions/Reference/limits.md", "/a5e9a1a304902-limits"],
@@ -181,12 +193,20 @@ export function getRedirect(path: string, anchor: string) {
           "/6c02f17c3109f-o-auth-authentication-auth-code",
       ],
       [
+        "/oauth-authentication-authorization-code.md",
+        "/6c02f17c3109f-o-auth-authentication-auth-code",
+      ],
+      [
           "/docs/Instructions/Security/oauth-authentication.md",
           "/9398592961ced-o-auth-authentication-client-credentials",
       ],
       [
           "/docs/Instructions/oauth-authentication.md",
           "/9398592961ced-o-auth-authentication-client-credentials",
+      ],
+      [
+        "/oauth-authentication.md",
+        "/9398592961ced-o-auth-authentication-client-credentials",
       ],
       [
           "/docs/Instructions/Security/oauthscopes.md",
@@ -197,8 +217,16 @@ export function getRedirect(path: string, anchor: string) {
           "/1450e85735dbf-o-auth-2-0-scopes",
       ],
       [
+        "/oauthscopes.md",
+        "/1450e85735dbf-o-auth-2-0-scopes",
+      ],
+      [
           "/docs/Instructions/Security/api-key-authentication.md",
           "/2b4ffbd8af74e-api-key-authentication",
+      ],
+      [
+        "api-key-authentication.md",
+        "/2b4ffbd8af74e-api-key-authentication",
       ],
       [
           "/docs/Instructions/api-key-authentication.md",
@@ -213,12 +241,20 @@ export function getRedirect(path: string, anchor: string) {
           "/o34xl1sk72uc5-mutual-transport-layer-security-m-tls",
       ],
       [
+          "/mutual-tls.md",
+          "/o34xl1sk72uc5-mutual-transport-layer-security-m-tls",
+      ],
+      [
           "/docs/Instructions/Security/additional-security.md",
           "/08f3724a4ea0b-additional-security",
       ],
       [
           "/docs/Instructions/additional-security.md",
           "/08f3724a4ea0b-additional-security",
+      ],
+      [
+        "/additional-security.md",
+        "/08f3724a4ea0b-additional-security",
       ],
       ["/docs/Instructions/other-apis.md", "/be8786a7378fb-other-ap-is"],
       [
