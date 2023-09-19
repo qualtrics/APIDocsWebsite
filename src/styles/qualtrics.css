@@ -39,6 +39,10 @@ input::placeholder {
   background-color: #f5f8fa;
 }
 
+header.blueBackground {
+  z-index: 100;
+}
+
 .screenHeight {
   height: 100vh;
 }
