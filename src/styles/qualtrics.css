@@ -200,17 +200,14 @@ a.reset {
 }
 
 .card2 {
-  box-shadow: 0 4px 8px 0 rgb(0 0 7 / 12%);
   background-color: #fff;
   padding: 20px;
   overflow: hidden;
   transition: 0.3s linear;
 
   &:hover {
-    box-shadow: 0 4px 8px 0 rgb(0 0 7 / 25%);
-    background-color: #fff;
-    transform: translateY(-0px);
-    transition: ease-in-out .2s;
+    background-color: #edf2f4;
+    transition: color .7s ease,background-color .5s ease;
   }
 
 }
