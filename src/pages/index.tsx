@@ -4,6 +4,9 @@ import Layout from "../components/layout";
 import { Helmet } from "react-helmet";
 import { getRedirect } from "../services/redirectTool";
 
+import PostmanIcon from '../components/PostmanIcon';
+import ApiIcon from "../components/ApiIcon";
+
 const isBrowser = typeof location !== "undefined";
 
 const IndexPage = () => {
@@ -81,7 +84,7 @@ const IndexPage = () => {
                     className="reset headerMarginRight3 marginBottom10 flex-1-1"
                     href="/ZG9jOjg3NjY0Mg-overview"
                   >
-                    <div className="card elevation">
+                    <div className="card2">
                       <div className="flex">
                         <svg
                           data-icon="book"
@@ -110,7 +113,7 @@ const IndexPage = () => {
                     className="reset headerMarginRight3 marginBottom10 flex-1-1"
                     href="/ZG9jOjg3NjYzMQ-overview"
                   >
-                    <div className="card elevation">
+                    <div className="card2">
                       <div className="flex">
                         <svg
                           data-icon="manual"
@@ -136,7 +139,7 @@ const IndexPage = () => {
                     className="reset headerMarginRight3 marginBottom10 flex-1-1"
                     href="/ZG9jOjg0MDczOA-api-reference"
                   >
-                    <div className="card elevation">
+                    <div className="card2">
                       <div className="flex">
                         <svg
                           data-icon="cloud"
@@ -165,7 +168,7 @@ const IndexPage = () => {
                     className="reset headerMarginRight3 marginBottom10 flex-1-1"
                     href="/ZG9jOjg3NjY0NQ-qualtrics-software-development-kits"
                   >
-                    <div className="card elevation">
+                    <div className="card2">
                       <div className="flex">
                         <svg
                           data-icon="code"
@@ -183,6 +186,66 @@ const IndexPage = () => {
                           <div className="textXLarge">SDKs</div>
                           <p>
                             Development Kits for Building your own Applications.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="textXXLarge mt10 mb5">
+                  <p>Popular</p>
+                </div>
+                <div className="flex flexWrap">
+                  <a
+                    className="reset headerMarginRight3 marginBottom10 flex-1-1"
+                    href="/madpkwrp3y5mz-getting-started-with-qualtrics-public-collections-in-postman"
+                  >
+                    <div className="card2">
+                      <div className="flex">
+                      <PostmanIcon width="24" height="24"/>
+                        <div className="flex-1-1 marginLeft-1rem">
+                          <div className="textXLarge">Postman</div>
+                          <p>
+                          Visit our public API collections in Postman — an easy and comprehensive access point to explore all our public APIs.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="flex flexWrap mt10">
+                  <a
+                    className="reset headerMarginRight3 marginBottom10 flex-1-1"
+                    href="/08f3724a4ea0b-additional-security"
+                  >
+                    <div className="card2">
+                      <div className="flex">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512"><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0z"/></svg>
+
+                        <div className="flex-1-1 marginLeft-1rem">
+                          <div className="textXLarge">IP Address Whitelisting & Mutual TLS
+                          </div>
+                          <p>
+                          Learn more about our advanced security options, like IP address whitelisting and Mutual Transport Layer Security (mTLS)
+.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div className="flex flexWrap mt10">
+                  <a
+                    className="reset headerMarginRight3 marginBottom10 flex-1-1"
+                    href="https://www.qualtrics.com/support/survey-platform/sp-administration/administration-overview/#SummaryReport"
+                  >
+                    <div className="card2">
+                      <div className="flex">
+                      <ApiIcon width="24" height="24"/>
+                        <div className="flex-1-1 marginLeft-1rem">
+                          <div className="textXLarge">API Usage Reports</div>
+                          <p>
+                            Review individual API calls made by your brand, the status of API calls, and API call volume over time. 
                           </p>
                         </div>
                       </div>

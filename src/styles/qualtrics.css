@@ -39,6 +39,10 @@ input::placeholder {
   background-color: #f5f8fa;
 }
 
+.whiteBackground {
+  background-color: #fff;
+}
+
 header.blueBackground {
   z-index: 100;
 }
@@ -106,6 +110,10 @@ a.reset {
   font-size: 18px;
 }
 
+.textXXLarge {
+  font-size: 24px;
+}
+
 .textWhite {
   color: #fff;
 }
@@ -146,6 +154,14 @@ a.reset {
   margin-top: 5rem;
 }
 
+.mt5 {
+  margin-top: 1.25rem;
+}
+
+.mt10 {
+  margin-top: 2.5rem;
+}
+
 .text18px {
   font-size: 18px;
 }
@@ -182,3 +198,22 @@ a.reset {
 .marginLeft-1rem {
   margin-left: 1rem;
 }
+
+.card2 {
+  box-shadow: 0 8px 16px 0 rgb(0 0 7 / 12%);
+  background-color: #fff;
+  padding: 20px;
+  overflow: hidden;
+  transition: 0.3s linear;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgb(0 0 7 / 25%);
+    background-color: #fff;
+    transform: translateY(-5px);
+    transition: ease-in-out .2s;
+  }
+
+}
+
+
+
