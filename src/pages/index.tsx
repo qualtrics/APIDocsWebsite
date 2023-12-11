@@ -237,7 +237,7 @@ const IndexPage = () => {
                 <div className="flex flexWrap mt10">
                   <a
                     className="reset headerMarginRight3 marginBottom10 flex-1-1"
-                    href="https://www.qualtrics.com/support/survey-platform/sp-administration/administration-overview/#SummaryReport"
+                    href="docs/Instructions/api-usage-report.md"
                   >
                     <div className="card2">
                       <div className="flex">

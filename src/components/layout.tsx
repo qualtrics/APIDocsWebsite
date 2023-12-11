@@ -9,7 +9,7 @@ const queryClient = new QueryClient();
 const Layout = ({ children }) => {
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="Layout whiteBackground">
+      <div className="Layout greyBackground">
         <Header />
         <main className="MainContent">{children}</main>
       </div>
