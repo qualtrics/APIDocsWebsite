@@ -237,7 +237,7 @@ const IndexPage = () => {
                 <div className="flex flexWrap mt10">
                   <a
                     className="reset headerMarginRight3 marginBottom10 flex-1-1"
-                    href="docs/Instructions/api-usage-report.md"
+                    href="/i44e8ozanrjjw-api-usage-report"
                   >
                     <div className="card2">
                       <div className="flex">
