@@ -26,7 +26,7 @@ input::placeholder {
 
 .MainContent {
   flex: 1 0 0;
-  
+  overflow: hidden;
 }
 
 .Layout {
