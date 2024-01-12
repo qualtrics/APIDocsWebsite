@@ -68,7 +68,7 @@ const IndexPage = () => {
             />
           )}
           {isHome && (
-            <div>
+            <div className="scrollBox">
               <div className="height24rem blueBackground flex flexColumn itemsCenter justifyCenter">
                 <div className="headerWidth marginAuto textCenter textWhite">
                   <div className="text26px mb5">Qualtrics API Docs</div>
@@ -77,7 +77,6 @@ const IndexPage = () => {
                   </div>
                 </div>
               </div>
-
               <div className="headerWidth marginAuto marginTop5ren">
                 <div className="flex flexWrap">
                   <a
@@ -226,8 +225,7 @@ const IndexPage = () => {
                           <div className="textXLarge">IP Address Allowlisting & Mutual TLS
                           </div>
                           <p>
-                          Learn more about our advanced security options, like IP address allowlisting and Mutual Transport Layer Security (mTLS)
-.
+                          Learn more about our advanced security options, like IP address allowlisting and Mutual Transport Layer Security (mTLS).
                           </p>
                         </div>
                       </div>
